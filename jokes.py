@@ -11,5 +11,8 @@ jokes = ['My wife told me to stop impersonating a flamingo. I had to put my foot
 "Don`t you hate it when someone answers their own questions? I do.",
 "It takes a lot of balls to golf the way I do."]
 
+def print_joke():
+  return print(jokes[randrange(0, len(jokes))])
+
 # prints a random joke from jokes
-print(jokes[randrange(0, len(jokes))])
+print_joke()
