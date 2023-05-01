@@ -1,4 +1,4 @@
-# jokePrinter
+# What is jokes.py?
 
 A simple python script that prints a random joke from a list of preset jokes.
 
