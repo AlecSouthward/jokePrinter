@@ -12,7 +12,7 @@ jokes = ['My wife told me to stop impersonating a flamingo. I had to put my foot
 "It takes a lot of balls to golf the way I do."]
 
 def print_joke():
-  return jokes[randrange(0, len(jokes))]
+  return print(jokes[randrange(0, len(jokes))])
 
 # prints a random joke from jokes
-print(print_joke)
+print_joke()
